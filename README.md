@@ -15,6 +15,14 @@ total RF must be more than 44
     - shiftScaleRotate
     - coarseDropout (max_holes = 1, max_height=16px, max_width=1, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
 
+## Project Structure
+
+![alt text](image-2.png)
+
 ## Model Architecture:
 ![alt text](image.png)
 
+## Model Training logs:
+Last 10-12 epochs logs have been attached below:
+Model is above 84% test accuracy post Epoch # 39 and hits the target accuracy above i.e. 85.15% in Epoch # 49
+![alt text](image-1.png)
